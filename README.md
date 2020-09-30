@@ -1,4 +1,4 @@
-# HU_sun
+# Hello Universe - SUN
 The second world of universe - Backend service
 
 It is a simple backend Service
