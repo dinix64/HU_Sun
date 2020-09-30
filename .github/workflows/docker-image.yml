@@ -15,7 +15,7 @@ jobs:
     - name: docker login
       env:
         DOCKER_USER: ${{secrets.DOCKER_USER}}  
-        DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}:  
+        DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
     - name: Build the Docker image
       run: docker build . --file dockerfile --tag luisdinis/sun:latest
       
